@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane layoutX="180.0" layoutY="75.0" prefHeight="650.0" prefWidth="850.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.database.ReportController">
+   <children>
+      <TextField fx:id="TotalS" layoutX="194.0" layoutY="339.0" prefHeight="26.0" prefWidth="116.0" />
+      <Text layoutX="48.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Emplyee :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="48.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Salaries :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="NOE" layoutX="194.0" layoutY="288.0" prefHeight="26.0" prefWidth="116.0" />
+      <Text layoutX="127.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="65.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="146.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="247.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Salary">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="eid" layoutX="40.0" layoutY="123.0" prefHeight="158.0" prefWidth="64.0" />
+      <TextArea fx:id="ename" layoutX="103.0" layoutY="123.0" prefHeight="158.0" prefWidth="116.0" />
+      <TextArea fx:id="esalary" layoutX="220.0" layoutY="123.0" prefHeight="158.0" prefWidth="94.0" />
+      <Text layoutX="554.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="464.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID">
+         <font>
+            <Font size="15.0" />
+         </font>
+
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="IID" layoutX="442.0" layoutY="123.0" prefHeight="158.0" prefWidth="64.0" />
+      <TextArea fx:id="ITYPE" layoutX="507.0" layoutY="123.0" prefHeight="158.0" prefWidth="116.0" />
+      <TextArea fx:id="ICOST" layoutX="622.0" layoutY="123.0" prefHeight="158.0" prefWidth="94.0" />
+      <Text layoutX="415.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Item :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="421.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Cost :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="NOI" layoutX="599.0" layoutY="301.0" prefHeight="26.0" prefWidth="116.0" />
+      <TextField fx:id="TOTALCOST" layoutX="599.0" layoutY="330.0" prefHeight="26.0" prefWidth="116.0" />
+      <Text layoutX="654.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cost">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="549.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="175.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="96.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="174.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="185.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="CID" layoutX="72.0" layoutY="454.0" prefHeight="158.0" prefWidth="64.0" />
+      <TextArea fx:id="CNAME" layoutX="136.0" layoutY="454.0" prefHeight="158.0" prefWidth="116.0" />
+      <Text layoutX="267.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Customer :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="NOC" layoutX="289.0" layoutY="510.0" prefHeight="26.0" prefWidth="116.0" />
+      <Line endX="-5.0" endY="-336.0" layoutX="384.0" layoutY="376.0" startX="-5.0" startY="14.0" />
+      <Line endX="386.5" layoutX="372.0" layoutY="391.0" startX="-370.0" />
+      <Line endX="-1.0" endY="-169.0" layoutX="759.0" layoutY="209.0" startX="-1.0" startY="439.29290771484375" />
+      <Text layoutX="909.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supplier">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="889.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="967.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="1011.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="SID" layoutX="863.0" layoutY="123.0" prefHeight="158.0" prefWidth="64.0" />
+      <TextArea fx:id="SName" layoutX="929.0" layoutY="123.0" prefHeight="158.0" prefWidth="116.0" />
+      <Text layoutX="806.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Supplier :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="NOS" layoutX="941.0" layoutY="301.0" prefHeight="26.0" prefWidth="116.0" />
+      <Line endX="365.0" endY="-0.5" layoutX="895.0" layoutY="391.0" startX="-136.5" startY="-0.5" />
+      <Text layoutX="951.0" layoutY="416.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Equipment">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="840.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="921.0" layoutY="439.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="1030.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cost">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="EID1" layoutX="815.0" layoutY="454.0" prefHeight="158.0" prefWidth="64.0" />
+      <TextArea fx:id="ENAME1" layoutX="879.0" layoutY="454.0" prefHeight="158.0" prefWidth="116.0" />
+      <TextArea fx:id="ECOST1" layoutX="998.0" layoutY="454.0" prefHeight="158.0" prefWidth="94.0" />
+      <Text layoutX="1100.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Equipment :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="1152.0" layoutY="563.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Cost :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="NOEQ1" layoutX="1131.0" layoutY="497.0" prefHeight="26.0" prefWidth="116.0" />
+      <TextField fx:id="TOTALCOSTOQ1" layoutX="1131.0" layoutY="572.0" prefHeight="26.0" prefWidth="116.0" />
+      <Line endX="-5.0" endY="-255.5" layoutX="426.0" layoutY="647.0" startX="-5.0" startY="1.29290771484375" />
+      <Line endX="887.5" endY="0.2071068286895752" layoutX="372.0" layoutY="42.0" startX="-370.0" />
+      <Line endX="-1.0" endY="-187.2928924560547" layoutX="1261.0" layoutY="229.0" startX="-1.0" startY="418.29290771484375" />
+      <Line endX="836.5" endY="-0.20709228515625" layoutX="424.0" layoutY="649.0" startX="-424.0" startY="-0.20709228515625" />
+      <Line endX="-1.0" endY="-187.2928924560547" layoutX="2.0" layoutY="230.0" startX="-1.0" startY="418.29290771484375" />
+      <Text layoutX="564.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profits">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="483.0" layoutY="471.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Incomes: ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="470.0" layoutY="524.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Outcomes: ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="538.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profit: ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="TOTALINCOM" layoutX="611.0" layoutY="451.0" prefHeight="26.0" prefWidth="116.0" />
+      <TextField fx:id="TOTALOUTCOME" layoutX="611.0" layoutY="506.0" prefHeight="26.0" prefWidth="116.0" />
+      <TextField fx:id="PROFIT" layoutX="611.0" layoutY="558.0" prefHeight="26.0" prefWidth="116.0" />
+      <Text fill="#142dcf" layoutX="538.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Report">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button layoutX="1235.0" layoutY="1.0" mnemonicParsing="false" onAction="#Back" text="X" />
+   </children>
+</AnchorPane>
