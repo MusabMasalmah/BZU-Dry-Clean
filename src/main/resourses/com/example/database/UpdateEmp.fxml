@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane layoutX="320.0" layoutY="100.0" prefHeight="600.0" prefWidth="850.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.database.UpdateEmpController">
+   <children>
+      <Text fill="#2b71e1" layoutX="494.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Informations">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="400.0" fitWidth="300.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="410.0" fitWidth="320.0">
+         <image>
+            <Image url="@../../../../../DryClean.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="540.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter new Information:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="582.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="571.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="503.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="589.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="567.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="596.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="560.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="486.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="UGender" layoutX="668.0" layoutY="169.0" prefHeight="26.0" prefWidth="139.0" visibleRowCount="2" />
+      <ComboBox fx:id="UType" layoutX="668.0" layoutY="329.0" prefHeight="26.0" prefWidth="139.0" />
+      <Button layoutX="730.0" layoutY="508.0" mnemonicParsing="false" onAction="#UpdateBu" text="Update">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button layoutX="467.0" layoutY="507.0" mnemonicParsing="false" onAction="#BackBu" prefHeight="38.0" prefWidth="70.0" text="Back">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <TextField fx:id="UName" layoutX="668.0" layoutY="130.0" prefHeight="21.0" prefWidth="139.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="UPhone_Number" layoutX="668.0" layoutY="211.0" prefHeight="21.0" prefWidth="139.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="UEMAIL" layoutX="668.0" layoutY="249.0" prefHeight="21.0" prefWidth="139.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="UAddress" layoutX="669.0" layoutY="292.0" prefHeight="21.0" prefWidth="139.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="UPassword" layoutX="669.0" layoutY="410.0" prefHeight="21.0" prefWidth="139.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="UCPassword" layoutX="668.0" layoutY="441.0" prefHeight="21.0" prefWidth="139.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <Text fx:id="passtext" layoutX="668.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="139.20000000000005">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <ImageView fitHeight="600.0" fitWidth="424.0" layoutY="-1.0">
+         <image>
+            <Image url="@DryCleann.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="USalary" layoutX="668.0" layoutY="374.0" prefHeight="21.0" prefWidth="139.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <Text layoutX="588.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Salary :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

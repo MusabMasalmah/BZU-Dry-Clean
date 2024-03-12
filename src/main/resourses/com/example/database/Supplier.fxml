@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane layoutX="320.0" layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="850.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.database.viewSuppliers">
+    <children>
+        <TableView fx:id="SuppliersTable" layoutX="76.0" layoutY="52.0" prefHeight="348.0" prefWidth="698.0">
+            <columns>
+                <TableColumn fx:id="SuIDtv" prefWidth="75.0" text="supplier ID" />
+                <TableColumn fx:id="SUNametv" prefWidth="116.0" text="Supplier Name" />
+                <TableColumn fx:id="phonetv" prefWidth="100.0" text="Phone Number" />
+                <TableColumn fx:id="Adrresstv" prefWidth="171.0" text="Adrress" />
+                <TableColumn fx:id="emailtv" prefWidth="236.0" text="Email" />
+            </columns>
+        </TableView>
+        <Label layoutX="102.0" layoutY="407.0" prefHeight="17.0" prefWidth="38.0" text="suID" />
+        <Label layoutX="187.0" layoutY="407.0" prefHeight="17.0" prefWidth="38.0" text="Name" />
+        <Label layoutX="290.0" layoutY="407.0" prefHeight="17.0" prefWidth="38.0" text="phone" />
+        <Label layoutX="413.0" layoutY="407.0" prefHeight="17.0" prefWidth="46.0" text="Adrress" />
+        <Label layoutX="591.0" layoutY="407.0" prefHeight="17.0" prefWidth="46.0" text="Email" />
+        <TextField fx:id="suIDtext" layoutX="89.0" layoutY="440.0" prefHeight="25.0" prefWidth="65.0" />
+        <TextField fx:id="nametext" layoutX="174.0" layoutY="440.0" prefHeight="25.0" prefWidth="65.0" />
+        <TextField fx:id="phonetext" layoutX="265.0" layoutY="440.0" prefHeight="25.0" prefWidth="100.0" />
+        <TextField fx:id="addresstext" layoutX="386.0" layoutY="440.0" prefHeight="25.0" prefWidth="110.0" />
+        <TextField fx:id="emailtext" layoutX="522.0" layoutY="440.0" prefHeight="25.0" prefWidth="183.0" />
+        <Button fx:id="addsubt" layoutX="708.0" layoutY="440.0" mnemonicParsing="false" onAction="#insertProduct" prefHeight="25.0" prefWidth="55.0" text="ADD" />
+        <TextField fx:id="idtxt1" layoutX="89.0" layoutY="481.0" prefHeight="25.0" prefWidth="65.0" />
+        <TextField fx:id="nametxt1" layoutX="174.0" layoutY="481.0" prefHeight="25.0" prefWidth="65.0" />
+        <TextField fx:id="phonetxt1" layoutX="265.0" layoutY="481.0" prefHeight="25.0" prefWidth="100.0" />
+        <TextField fx:id="addtxt1" layoutX="386.0" layoutY="481.0" prefHeight="25.0" prefWidth="110.0" />
+        <TextField fx:id="emailtxt1" layoutX="522.0" layoutY="481.0" prefHeight="25.0" prefWidth="183.0" />
+        <Button fx:id="ubdateBT" layoutX="708.0" layoutY="481.0" mnemonicParsing="false" onAction="#updateProduct" text="Update" />
+        <TextField fx:id="idtxt2" layoutX="89.0" layoutY="524.0" prefHeight="25.0" prefWidth="65.0" />
+        <TextField fx:id="nametxt2" layoutX="174.0" layoutY="524.0" prefHeight="25.0" prefWidth="65.0" />
+        <TextField fx:id="phonetxt2" layoutX="265.0" layoutY="524.0" prefHeight="25.0" prefWidth="100.0" />
+        <TextField fx:id="addtxt2" layoutX="386.0" layoutY="524.0" prefHeight="25.0" prefWidth="110.0" />
+        <TextField fx:id="emailtxt2" layoutX="522.0" layoutY="524.0" prefHeight="25.0" prefWidth="183.0" />
+        <Button fx:id="deleteBT" layoutX="711.0" layoutY="524.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="55.0" text="Delete" />
+      <Text layoutX="380.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supplier">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Button layoutX="751.0" layoutY="2.0" mnemonicParsing="false" onAction="#Back" text="X" />
+    </children>
+</Pane>
